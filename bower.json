@@ -1,0 +1,22 @@
+{
+  "name": "gistcontribution",
+  "version": "0.0.1",
+  "homepage": "https://github.com/muralikrishnat/gistcontribution",
+  "authors": [
+    "Murali <muralikrishna8811@gmail.com>"
+  ],
+  "description": "contribution to gist",
+  "main": "app.js",
+  "keywords": [
+    "Gist",
+    "Practise"
+  ],
+  "license": "MIT",
+  "ignore": [
+    "**/.*",
+    "node_modules",
+    "bower_components",
+    "test",
+    "tests"
+  ]
+}
