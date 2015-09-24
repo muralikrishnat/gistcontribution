@@ -4,6 +4,8 @@ function f1(){
 
 window['f1']()
 
+for(var t in document.querySelector('div')){ console.log(t,document.querySelector('div')[t]);}
+
 r = 10;
 
 window['r']

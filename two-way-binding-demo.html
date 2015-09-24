@@ -1,0 +1,29 @@
+<html>
+
+<head>
+    <title>Behind the scenes of Two Way binding simple example for text</title>
+    <!-- Adding JS reference    -->
+    <script src="two-way-binding.js"></script>
+</head>
+<!-- Invoking the binding Manager after completion of DOM load-->
+<body onload="bindManager.init()">
+    <div class="demo-page">
+        <div class="section1">
+            <!-- Adding the new attribute 'mn-bind' that used to bind the change event -->
+            <input type="text" mn-bind="Name" />
+            <!-- Binding  Manager will change the  'mn-bind' tags which have  respective Property -->
+            <div >This is two way binding : <span mn-bind="Name"></span></div>
+
+            <div style="padding-top:30px;">
+                <input type="text" mn-bind="Property2" />
+                <div >This is two way binding for another property : <span mn-bind="Property2"></span></div>
+            </div>
+        </div>
+        <div class="section2" style="padding-top:30px;">
+            <input type="text" mn-bind="Name" />
+        </div>
+    </div>
+
+</body>
+
+</html>
