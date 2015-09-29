@@ -20,5 +20,8 @@
   "bugs": {
     "url": "https://github.com/muralikrishnat/gistcontribution/issues"
   },
-  "homepage": "https://github.com/muralikrishnat/gistcontribution#readme"
+  "homepage": "https://github.com/muralikrishnat/gistcontribution#readme",
+  "dependencies": {
+    "express": "^4.13.3"
+  }
 }
